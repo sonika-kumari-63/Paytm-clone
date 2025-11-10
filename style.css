@@ -1,0 +1,108 @@
+/* reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: aliceblue;
+    color: black;
+}
+header{
+    background-color: azure;
+    padding: 1rem;
+}
+.navbar{
+    display: flex;
+justify-content: space-between;
+}
+.nav-links
+{
+display:flex;
+gap: 40px;
+list-style: none;
+}
+.button
+{
+    background-color: darkblue;
+    display: flex;
+    border-radius: 30px;
+    color: aliceblue;
+    font-weight: bold;
+    width: 80px;
+}
+.section
+{
+    margin: 2rem;
+    padding: 2rem;
+    background-color: rgb(234, 243, 250);
+    border-radius: 10px;
+    display: inline-block;
+    width: 680PX;
+    margin-right: 10px;
+}
+.sect{
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background-color: rgb(239, 243, 247);
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.set{
+     margin: 1.5rem;
+    padding: 1.5rem;
+    background-color: rgb(239, 243, 247);
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.logos span{
+     color: #00baf2;
+}
+.logos {
+    font-weight: bold;
+    font-size: 40px;
+}
+.logo{
+ display: inline-block;
+ gap: 5rem;
+  justify-content: space-between;
+    border-radius: 20px;
+}
+.hey{
+    font-size: 20px;
+    font-weight:bold ;
+}
+.sections
+{
+ margin: 2rem;
+    padding: 2rem;
+    background-color: rgb(234, 243, 250);
+    border-radius: 10px;
+}
+.footer
+{
+      background-color: #004080;
+      color: white;
+      padding: 20px 0;
+       width: 100%;
+      text-align: right;
+      margin-right: 10px;
+}
+p.para{
+    color: azure;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+}
+  @media (max-width: 768px) {
+      .nav-links {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
