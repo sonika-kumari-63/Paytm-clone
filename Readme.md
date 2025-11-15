@@ -55,10 +55,10 @@ No frameworks
 
 <h2>Why This Project is Useful</h2>
 This clone helps beginners:
-1.Understand real UI layouts
-2.Practice modern CSS
-3.Improve design-to-code skills
-4.Build a strong development portfolio
+.Understand real UI layouts
+.Practice modern CSS
+.Improve design-to-code skills
+.Build a strong development portfolio
 
 
 
