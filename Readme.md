@@ -20,7 +20,7 @@ The entire UI is built from scratch using HTML & CSS only — no libraries, no f
 <h3>Semantic HTML Structure</h3>
 .Creating clean, readable HTML
 .Separating UI into reusable sections
-.Using tags like <header>, <nav>, <section>, <footer>
+.Using tags like header, nav, section, footer
 
 <h3>CSS Layout Mastery</h3>
 .Creating complex layouts using Flexbox
